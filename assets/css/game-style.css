@@ -79,8 +79,8 @@ h3 { font-size: 1.1em; color: #ff00ff; }
    ================================= */
 .profile-img {
     display: block;
-    width: 100px;
-    height: 100px;
+    width:200px;
+    height: 200px;
     border-radius: 50%;
     border: 3px solid #00ffff;
     box-shadow: 0 0 8px #00ffff;
