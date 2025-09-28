@@ -1,2 +1,2 @@
-# gamesite
-this website holds a collection of small mini games 
+# Gamesite
+This website holds a collection of small minigames 
