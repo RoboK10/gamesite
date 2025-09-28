@@ -6,52 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/gaming-style.css"> 
     <title>Three Column Layout</title>
-    <style>
-        /* Basic Styling for demonstration */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-
-        .header, .footer {
-            background-color: #333;
-            color: white;
-            padding: 1rem;
-            text-align: center;
-        }
-
-        .container {
-            display: flex; /* Makes the child elements (columns) flex items */
-            flex-wrap: wrap; /* Allows columns to wrap to the next line on small screens */
-            padding: 1rem;
-            gap: 20px; /* Space between columns */
-            justify-content: center; /* Center columns if there's extra space */
-        }
-
-        .column {
-            flex: 1; /* Each column takes equal available space */
-            min-width: 280px; /* Minimum width before wrapping */
-            background-color: rgb(255, 255, 255);
-            padding: 20px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            border-radius: 8px;
-        }
-
-        /* Responsive adjustments */
-        @media (max-width: 768px) {
-            .container {
-                flex-direction: column; /* Stacks columns vertically on smaller screens */
-                align-items: center; /* Centers stacked columns */
-            }
-            .column {
-                width: 90%; /* Take up most of the width when stacked */
-                flex: none; /* Disable flex growth when stacked */
-            }
-        }
-    </style>
+    
 </head>
 <body>
 
