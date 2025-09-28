@@ -3,49 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade Command Center</title>
+
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/gaming-style.css"> 
-    <title>Three Column Layout</title>
-    
+
+    <link rel="stylesheet" href="assets/css/gaming-style.css">
 </head>
 <body>
 
     <header class="header">
-        <h1>My Three Column Website</h1>
-        <p>A simple and responsive layout</p>
+        <h1>Arcade Command Center</h1>
+        <p>:: Initiating Protocol 7.2 ::</p>
     </header>
 
     <div class="container">
-        <div class="column">
-            <h2>Column One</h2>
-            <p>This is the content for the first column. It could be for navigation, an about section, or introductory text.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="#">Learn More</a>
+        <div class="column" id="column-left">
+            <h2>Player Profile</h2>
+            <p>Access Level: Admin</p>
+            <p>Status: <span class="online">Online</span></p>
+            <img src="https://via.placeholder.com/300x150?text=Avatar+Loading" alt="Player Avatar" class="profile-img">
+            <a href="#" class="btn">View Stats</a>
         </div>
 
-        <div class="column">
-            <h2>Column Two</h2>
-            <p>Here you can place your main content, articles, or featured items. This column is also responsive.</p>
-            <img src="./images/magic8ball.png" alt="Placeholder Image" style="max-width: 100%; height: auto; display: block; margin-bottom: 10px;">
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <a href="#">View Details</a>
+        <div class="column" id="column-center">
+            <h2>Featured Quest Log</h2>
+            <p>Welcome, Commander. Here are the latest objectives and featured articles from the network. Click the link to begin your mission.</p>
+            
+            <div class="quest-item">
+                <h3>Quest 01: Core Mechanics</h3>
+                <p>Explore the fundamental principles of retro development environments.</p>
+                <a href="#" class="btn">Begin Mission</a>
+            </div>
+            
+            <div class="quest-item">
+                <h3>Quest 02: Legacy Code</h3>
+                <p>A deep dive into JavaScript and HTML5 optimization techniques.</p>
+                <a href="#" class="btn">Begin Mission</a>
+            </div>
         </div>
 
-        <div class="column">
-            <h2>Column Three</h2>
-            <p>This column could be for supplementary information, advertisements, a contact form, or social media links.</p>
+        <div class="column" id="column-right">
+            <h2>System Alerts</h2>
             <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
+                <li><span>[ALERT]</span> High latency detected in Sector 4.</li>
+                <li><span>[UPDATE]</span> New weapon skin unlocked (CSS v3.0).</li>
+                <li><span>[ERROR]</span> Local save data corrupted. Reverting to checkpoint.</li>
             </ul>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <a href="#">Contact Us</a>
+            <p>Need Technical Support?</p>
+            <a href="#" class="btn secondary">Contact Support</a>
         </div>
     </div>
 
     <footer class="footer">
-        <p>&copy; 2023 My Three Column Site. All rights reserved.</p>
+        <p>&copy; 2025 | Static Site Generation Complete</p>
     </footer>
 
 </body>
